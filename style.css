@@ -1,0 +1,333 @@
+body {
+    margin: 0;
+    background-color: #77B5FE;
+    overflow: hidden;
+}
+
+.ground {
+    background-color: #FFFAFA;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+}
+
+.body {
+    background-color: #FFFAFA;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 60px;
+    left: 40%;
+}
+
+.head {
+    background-color: #FFFAFA;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 41.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.eyes {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0 0 30px;
+}
+
+.eye1 {
+    background-color: #000;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.eye2 {
+    background-color: #000;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.nose {
+    display: inline;
+    width: 0;
+    height: 0;
+    border-right: 5px solid transparent;
+    border-top: 35px solid #f4661B;
+    border-left: 5px solid transparent;
+    margin: 0 0 0 60px;
+    transform: rotate(-50deg);
+    border-radius: 50px;
+}
+
+.mouth {
+    background-color: #000;
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 0 0 30px;
+}
+
+.neck {
+    display: flex;
+    flex-direction: column;
+    margin: -10px 0 0 5px;
+}
+
+.neck1 {
+    background: red;
+    width: 90px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.poid1 {
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 12px 0 0 5px;
+}
+
+.poid2 {
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px 0 0 10px;
+}
+
+.poid3 {
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px 0 0 15px;
+}
+
+.poid4 {
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px 0 0 15px;
+}
+
+.poid5 {
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 11px 0 0 15px;
+}
+
+.poid6 {
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px 0 0 10px;
+}
+
+.neck2 {
+    background: red;
+    width: 20px;
+    height: 45px;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    transform: rotate(-20deg);
+}
+
+.poid7 {
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: -25px 0 0 5px;
+}
+
+.poid8 {
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: -15px 0 0 5px;
+}
+
+.snow1 {
+    background-color: #FFFAFA;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    animation-name: snowfall;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.snow2 {
+    background-color: #FFFAFA;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    animation-name: snowfall;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.snow3 {
+    background-color: #FFFAFA;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    animation-name: snowfall;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+}
+
+.snow4 {
+    background-color: #FFFAFA;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    animation-name: snowfall;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 4.5s;
+}
+
+.snow5 {
+    background-color: #FFFAFA;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 45%;
+    animation-name: snowfall;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+
+.snow6 {
+    background-color: #FFFAFA;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 55%;
+    animation-name: snowfall;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+.snow7 {
+    background-color: #FFFAFA;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 65%;
+    animation-name: snowfall;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+.snow8 {
+    background-color: #FFFAFA;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 75%;
+    animation-name: snowfall;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+
+.snow9 {
+    background-color: #FFFAFA;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 85%;
+    animation-name: snowfall;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+.snow10 {
+    background-color: #FFFAFA;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 95%;
+    animation-name: snowfall;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+}
+
+@keyframes snowfall {
+    from {
+        top: 0;
+    }
+    to {
+        top: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .body {
+        left: 30%;
+    }
+    .head {
+        left: 36%;
+    }
+}
